@@ -23,10 +23,6 @@ fold = StratifiedKFold(n_splits=10, shuffle=True)
 accMean = 0
 # acurácia do número de  neurônios atual
 accNeuron = []
-# acurácia máxima entre os números de neurônios
-accMax = 0
-# número de neurônios correspondente a acurácia máxima
-accMaxN = 0
 
 np.random.seed(1)
 # variação de neuronios na camada oculta
